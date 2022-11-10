@@ -1,0 +1,61 @@
+#Exception handling in python
+
+try:
+    --code--
+
+except (Exception1, Exception2, ...) as e:
+
+Note: empty except blocks are not permitted in python
+
+- List of Exception resulting from programmer errors:
+    - IndentationError
+    - SyntaxError
+    - NameError
+note: these Exceptionz/errors should not be caught
+
+To avoid empty except block we used special operator called, pass
+
+raise --> used to re-throw the exceptios which is currently handled
+
+
+#Comprehensions
+- Concise syntax for describing lists, sets and dictionaries, readable and expressive
+- Close to natural language
+
+#list Comprehensions syntax
+[expr(item) for item in iterable]
+
+#set Comprehensions syntax
+{expr(item) for item in iterable} 
+
+#dictionary Comprehensions syntax
+{key_expr(item) : value_expr(item) for item in iterable} 
+
+--------------------------------------------
+
+#classes in python
+
+e.g, 
+ 
+ class Person:
+    def __init__(self, name):  # this not a  constructre
+        self._name=name
+    
+    def name(self)
+        return self._name
+
+Key Note: python does not have any access modifiers
+          all instance variables and methods are public in python"
+
+-----------------------------------------------
+
+Python beyond the basic
+
+1) Managing/organizing large programs
+
+    - Packages are special modules in python
+        -Packages are generally directories 
+        -Modules are generally files
+
+Basic structure Packages
+

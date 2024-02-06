@@ -1,7 +1,6 @@
-from pprint import pprint as pp
-from math import sqrt
-import os
 import glob
+import os
+from pprint import pprint as pp
 
 
 def readfile():

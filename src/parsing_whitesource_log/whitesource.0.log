@@ -1,0 +1,888 @@
+[DEBUG] [2023-12-29 19:11:07,468 +0530] - Proxy host not provided
+[DEBUG] [2023-12-29 19:11:07,476 +0530] - Base url:'https://saas.whitesourcesoftware.com' 
+[INFO] [2023-12-29 19:11:07,661 +0530[ - UnifiedAgent version (pluginVersion) : 23.8.2
+[INFO] [2023-12-29 19:11:07,672 +0530[ - 
+##### general #####
+wss.url=https://saas.whitesourcesoftware.com/agent
+userKey=******
+projectTag=
+projectName=demoproject
+productName=demo
+offline=true
+includes=**/*.7z,**/*.a,**/*.aar,**/*.air,**/*.apk,**/*.ar,**/*.bb,**/*.bz2,**/*.car,**/*.conda,**/*.cpa,**/*.crate,**/*.deb,**/*.dll,**/*.dmg,**/*.docker,**/*.drpm,**/*.ear,**/*.egg,**/*.epk,**/*.exe,**/*.gal,**/*.gem,**/*.gzip,**/*.har,**/*.hpi,**/*.jar,**/*.jar.pack.gz,**/*.jpi,**/*.js,**/*.ko,**/*.min.js,**/*.msi,**/*.nupkg,**/*.pkg.tar.xz,**/*.rpm,**/*.sar,**/*.sit,**/*.so,**/*.swc,**/*.swf,**/*.tar,**/*.tar.bz2,**/*.tar.gz,**/*.tbz,**/*.tgz,**/*.udeb,**/*.war,**/*.whl,**/*.zip,**/*.4th,**/*.6pl,**/*.6pm,**/*.8xk,**/*.8xk.txt,**/*.8xp,**/*.8xp.txt,**/*.E,**/*.ML,**/*._coffee,**/*._js,**/*._ls,**/*.abap,**/*.ada,**/*.adb,**/*.ado,**/*.adp,**/*.ads,**/*.agda,**/*.ahk,**/*.ahkl,**/*.aidl,**/*.aj,**/*.al,**/*.als,**/*.ampl,**/*.apl,**/*.app.src,**/*.applescript,**/*.arc,**/*.as,**/*.asax,**/*.asc,**/*.ascx,**/*.asd,**/*.ash,**/*.ashx,**/*.asmx,**/*.asp,**/*.aspx,**/*.au3,**/*.aug,**/*.auk,**/*.aw,**/*.awk,**/*.axd,**/*.axi,**/*.axi.erb,**/*.axs,**/*.axs.erb,**/*.b,**/*.bas,**/*.bash,**/*.bat,**/*.bats,**/*.bb,**/*.befunge,**/*.bf,**/*.bison,**/*.bmx,**/*.bones,**/*.boo,**/*.boot,**/*.brd,**/*.bro,**/*.brs,**/*.bsl,**/*.bsv,**/*.builder,**/*.bzl,**/*.c,**/*.c++,**/*.cake,**/*.capnp,**/*.cats,**/*.cbl,**/*.cc,**/*.ccp,**/*.cdf,**/*.ceylon,**/*.cfc,**/*.cfm,**/*.cfml,**/*.cgi,**/*.ch,**/*.chpl,**/*.chs,**/*.cirru,**/*.cjsx,**/*.ck,**/*.cl,**/*.cl2,**/*.click,**/*.clj,**/*.cljc,**/*.cljs,**/*.cljs.hl,**/*.cljscm,**/*.cljx,**/*.clp,**/*.cls,**/*.clw,**/*.cmd,**/*.cob,**/*.cobol,**/*.coffee,**/*.com,**/*.command,**/*.coq,**/*.cp,**/*.cpp,**/*.cps,**/*.cpy,**/*.cr,**/*.cs,**/*.csd,**/*.cshtml,**/*.csx,**/*.ctp,**/*.cu,**/*.cuh,**/*.cw,**/*.cxx,**/*.cy,**/*.d,**/*.dart,**/*.dats,**/*.db2,**/*.dcl,**/*.decls,**/*.dfm,**/*.di,**/*.djs,**/*.dlm,**/*.dm,**/*.do,**/*.doh,**/*.dpr,**/*.druby,**/*.duby,**/*.dyalog,**/*.dyl,**/*.dylan,**/*.e,**/*.ec,**/*.ecl,**/*.eclxml,**/*.eh,**/*.el,**/*.eliom,**/*.eliomi,**/*.elm,**/*.em,**/*.emacs,**/*.emacs.desktop,**/*.emberscript,**/*.eq,**/*.erl,**/*.es,**/*.es6,**/*.escript,**/*.ex,**/*.exs,**/*.eye,**/*.f,**/*.f03,**/*.f08,**/*.f77,**/*.f90,**/*.f95,**/*.factor,**/*.fan,**/*.fancypack,**/*.fcgi,**/*.feature,**/*.flex,**/*.flux,**/*.for,**/*.forth,**/*.fp,**/*.fpp,**/*.fr,**/*.frag,**/*.frg,**/*.frm,**/*.frt,**/*.frx,**/*.fs,**/*.fsh,**/*.fshader,**/*.fsi,**/*.fsx,**/*.fth,**/*.ftl,**/*.fun,**/*.fx,**/*.fxh,**/*.fy,**/*.g,**/*.g4,**/*.gap,**/*.gawk,**/*.gd,**/*.gdb,**/*.gdbinit,**/*.gemspec,**/*.geo,**/*.geom,**/*.gf,**/*.gi,**/*.glf,**/*.glsl,**/*.glslv,**/*.gml,**/*.gms,**/*.gnu,**/*.gnuplot,**/*.go,**/*.god,**/*.golo,**/*.gp,**/*.grace,**/*.groovy,**/*.grt,**/*.gs,**/*.gshader,**/*.gsp,**/*.gst,**/*.gsx,**/*.gtpl,**/*.gvy,**/*.gyp,**/*.gypi,**/*.h,**/*.h++,**/*.hats,**/*.hb,**/*.hcl,**/*.hh,**/*.hic,**/*.hlean,**/*.hlsl,**/*.hlsli,**/*.hpp,**/*.hqf,**/*.hrl,**/*.hs,**/*.hsc,**/*.hx,**/*.hxsl,**/*.hxx,**/*.hy,**/*.i7x,**/*.iced,**/*.icl,**/*.idc,**/*.idr,**/*.ihlp,**/*.ijs,**/*.ik,**/*.ily,**/*.inc,**/*.inl,**/*.ino,**/*.intr,**/*.io,**/*.ipf,**/*.ipp,**/*.irbrc,**/*.iss,**/*.j,**/*.jake,**/*.java,**/*.jbuilder,**/*.jflex,**/*.ji,**/*.jison,**/*.jisonlex,**/*.jl,**/*.jq,**/*.js,**/*.jsb,**/*.jscad,**/*.jsfl,**/*.jsm,**/*.jsp,**/*.jss,**/*.jsx,**/*.kicad_pcb,**/*.kid,**/*.krl,**/*.ksh,**/*.kt,**/*.ktm,**/*.kts,**/*.l,**/*.lagda,**/*.las,**/*.lasso,**/*.lasso8,**/*.lasso9,**/*.ldml,**/*.lean,**/*.lex,**/*.lfe,**/*.lgt,**/*.lhs,**/*.lid,**/*.lidr,**/*.lisp,**/*.litcoffee,**/*.ll,**/*.lmi,**/*.logtalk,**/*.lol,**/*.lookml,**/*.lpr,**/*.ls,**/*.lsl,**/*.lslp,**/*.lsp,**/*.lua,**/*.lvproj,**/*.ly,**/*.m,**/*.m4,**/*.ma,**/*.mak,**/*.make,**/*.mako,**/*.mao,**/*.mata,**/*.matah,**/*.mathematica,**/*.matlab,**/*.mawk,**/*.maxhelp,**/*.maxpat,**/*.maxproj,**/*.mcr,**/*.metal,**/*.minid,**/*.mir,**/*.mirah,**/*.mk,**/*.mkfile,**/*.ml,**/*.ml4,**/*.mli,**/*.mll,**/*.mly,**/*.mm,**/*.mmk,**/*.mms,**/*.mo,**/*.mod,**/*.model.lkml,**/*.monkey,**/*.moo,**/*.moon,**/*.mq4,**/*.mq5,**/*.mqh,**/*.ms,**/*.mspec,**/*.mss,**/*.mt,**/*.mu,**/*.muf,**/*.mumps,**/*.mxt,**/*.myt,**/*.n,**/*.nawk,**/*.nb,**/*.nbp,**/*.nc,**/*.ncl,**/*.ni,**/*.nim,**/*.nimrod,**/*.nit,**/*.nix,**/*.njs,**/*.nl,**/*.nlogo,**/*.nqp,**/*.nse,**/*.nsh,**/*.nsi,**/*.nu,**/*.numpy,**/*.numpyw,**/*.numsc,**/*.nut,**/*.ny,**/*.omgrofl,**/*.ooc,**/*.opa,**/*.opal,**/*.opencl,**/*.orc,**/*.os,**/*.ox,**/*.oxh,**/*.oxo,**/*.oxygene,**/*.oz,**/*.p,**/*.p4,**/*.p6,**/*.p6l,**/*.p6m,**/*.pac,**/*.pan,**/*.parrot,**/*.pas,**/*.pascal,**/*.pasm,**/*.pat,**/*.pb,**/*.pbi,**/*.pbt,**/*.pck,**/*.pd,**/*.pd_lua,**/*.pde,**/*.perl,**/*.ph,**/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phps,**/*.phpt,**/*.pig,**/*.pike,**/*.pir,**/*.pkb,**/*.pks,**/*.pl,**/*.pl6,**/*.plb,**/*.plot,**/*.pls,**/*.plsql,**/*.plt,**/*.pluginspec,**/*.plx,**/*.pm,**/*.pm6,**/*.pmod,**/*.pod,**/*.podsl,**/*.podspec,**/*.pogo,**/*.pony,**/*.pov,**/*.pp,**/*.pprx,**/*.prg,**/*.pri,**/*.pro,**/*.prolog,**/*.prw,**/*.ps1,**/*.psc,**/*.psd1,**/*.psgi,**/*.psm1,**/*.purs,**/*.pwn,**/*.pxd,**/*.pxi,**/*.py,**/*.py3,**/*.pyde,**/*.pyp,**/*.pyt,**/*.pyw,**/*.pyx,**/*.qbs,**/*.qml,**/*.r,**/*.r2,**/*.r3,**/*.rabl,**/*.rake,**/*.rb,**/*.rbbas,**/*.rbfrm,**/*.rbmnu,**/*.rbres,**/*.rbtbar,**/*.rbuild,**/*.rbuistate,**/*.rbw,**/*.rbx,**/*.rbxs,**/*.rd,**/*.re,**/*.reb,**/*.rebol,**/*.red,**/*.reds,**/*.rei,**/*.rex,**/*.rexx,**/*.rg,**/*.rkt,**/*.rktd,**/*.rktl,**/*.rl,**/*.rpy,**/*.rs,**/*.rs.in,**/*.rsc,**/*.rsh,**/*.rsx,**/*.ru,**/*.ruby,**/*.sage,**/*.sagews,**/*.sas,**/*.sats,**/*.sbt,**/*.sc,**/*.scad,**/*.scala,**/*.scd,**/*.sce,**/*.sch,**/*.sci,**/*.scm,**/*.sco,**/*.scpt,**/*.scrbl,**/*.self,**/*.sexp,**/*.sh,**/*.sh-session,**/*.sh.in,**/*.shader,**/*.shen,**/*.sig,**/*.sj,**/*.sjs,**/*.sl,**/*.sld,**/*.sls,**/*.sma,**/*.smali,**/*.sml,**/*.smt,**/*.smt2,**/*.sp,**/*.spec,**/*.spin,**/*.sps,**/*.sqf,**/*.sql,**/*.sra,**/*.sru,**/*.srw,**/*.ss,**/*.ssjs,**/*.st,**/*.stan,**/*.sthlp,**/*.sv,**/*.svh,**/*.swift,**/*.t,**/*.tac,**/*.tcc,**/*.tcl,**/*.tf,**/*.thor,**/*.thrift,**/*.thy,**/*.tla,**/*.tm,**/*.tmux,**/*.tool,**/*.tpl,**/*.tpp,**/*.ts,**/*.tst,**/*.tsx,**/*.tu,**/*.txl,**/*.uc,**/*.udo,**/*.uno,**/*.upc,**/*.ur,**/*.urs,**/*.v,**/*.vala,**/*.vapi,**/*.vark,**/*.vb,**/*.vba,**/*.vbhtml,**/*.vbs,**/*.vcl,**/*.veo,**/*.vert,**/*.vh,**/*.vhd,**/*.vhdl,**/*.vhf,**/*.vhi,**/*.vho,**/*.vhs,**/*.vht,**/*.vhw,**/*.view.lkml,**/*.vim,**/*.volt,**/*.vrx,**/*.vsh,**/*.vshader,**/*.w,**/*.watchr,**/*.webidl,**/*.wisp,**/*.wl,**/*.wlt,**/*.wlua,**/*.wsgi,**/*.x,**/*.x10,**/*.xc,**/*.xi,**/*.xm,**/*.xojo_code,**/*.xojo_menu,**/*.xojo_report,**/*.xojo_script,**/*.xojo_toolbar,**/*.xojo_window,**/*.xpl,**/*.xproc,**/*.xpy,**/*.xq,**/*.xql,**/*.xqm,**/*.xquery,**/*.xqy,**/*.xrl,**/*.xs,**/*.xsjs,**/*.xsjslib,**/*.xsl,**/*.xslt,**/*.xsp-config,**/*.xsp.metadata,**/*.xtend,**/*.y,**/*.yacc,**/*.yap,**/*.yrl,**/*.yy,**/*.zep,**/*.zimpl,**/*.zmpl,**/*.zpl,**/*.zsh
+forceUpdate.failBuildOnPolicyViolation=false
+forceUpdate=false
+forceCheckAllDependencies=false
+configFilePath=D:\java\wss-unified-agent.config
+checkPolicies=false
+apiKey=******
+#whiteSourceFolderPath=.
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#showProgressBar=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#resolveAllDependencies=true
+#requireKnownSha1=true
+#requesterEmail=
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#log.level=info
+#ignoreEuaNotices=informational
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#fileSystemScan=true
+#failErrorLevel=DEFAULT
+#excludes=**/.*,**/node_modules,**/src/test,**/testdata,**/*sources.jar,**/*javadoc.jar
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#commandTimeout=900
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+##### ANT #####
+#ant.resolveDependencies=true
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=true
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=true
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.runPreStep=false
+#haskell.resolveDependencies=true
+#haskell.ignoreSourceFiles=true
+#haskell.ignorePreStepErrors=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=true
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=true
+#cocoapods.ignoreSourceFiles=true
+
+##### conda #####
+#conda.resolveDependencies=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scanContainers=false
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=true
+case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=true
+#go.modules.resolveDependencies=true
+#go.modules.removeDuplicateDependencies=true
+#go.modules.includeTestDependencies=false
+#go.modules.ignoreSourceFiles=true
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+#gradle.resolveDependencies=true
+#gradle.preferredEnvironment=wrapper
+#gradle.innerModulesAsDependencies=true
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=true
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=true
+
+##### maven #####
+#maven.runPreStep=false
+#maven.resolveDependencies=true
+#maven.projectNameFromDependencyFile=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.ignoreMvnTreeErrors=false
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.aggregateModules=false
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=true
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=true
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=true
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=true
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=true
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=true
+#php.removeDuplicateDependencies=true
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=true
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=true
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=true
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+#sbt.runPreStep=false
+#sbt.resolveDependencies=true
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.user=
+#scm.url=
+#scm.tag=
+#scm.repositoriesFile=
+#scm.ppk=
+#scm.pass=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2023-12-29 19:11:08,452 +0530[ - Available processors (cores): 	8
+Free memory (Mb): 	1317
+Max memory (Mb): 	4022
+Total memory (Mb): 	1538
+Used memory (Mb): 	220
+
+[INFO] [2023-12-29 19:11:08,456 +0530[ - Starting analysis
+[INFO] [2023-12-29 19:11:08,456 +0530[ - Scanning directories [D:\java\coreJava] for package dependencies (may take a few minutes)
+[INFO] [2023-12-29 19:11:08,457 +0530[ - Included file types: **/*.7z,**/*.a,**/*.aar,**/*.air,**/*.apk,**/*.ar,**/*.bb,**/*.bz2,**/*.car,**/*.conda,**/*.cpa,**/*.crate,**/*.deb,**/*.dll,**/*.dmg,**/*.docker,**/*.drpm,**/*.ear,**/*.egg,**/*.epk,**/*.exe,**/*.gal,**/*.gem,**/*.gzip,**/*.har,**/*.hpi,**/*.jar,**/*.jar.pack.gz,**/*.jpi,**/*.js,**/*.ko,**/*.min.js,**/*.msi,**/*.nupkg,**/*.pkg.tar.xz,**/*.rpm,**/*.sar,**/*.sit,**/*.so,**/*.swc,**/*.swf,**/*.tar,**/*.tar.bz2,**/*.tar.gz,**/*.tbz,**/*.tgz,**/*.udeb,**/*.war,**/*.whl,**/*.zip,**/*.4th,**/*.6pl,**/*.6pm,**/*.8xk,**/*.8xk.txt,**/*.8xp,**/*.8xp.txt,**/*.E,**/*.ML,**/*._coffee,**/*._js,**/*._ls,**/*.abap,**/*.ada,**/*.adb,**/*.ado,**/*.adp,**/*.ads,**/*.agda,**/*.ahk,**/*.ahkl,**/*.aidl,**/*.aj,**/*.al,**/*.als,**/*.ampl,**/*.apl,**/*.app.src,**/*.applescript,**/*.arc,**/*.as,**/*.asax,**/*.asc,**/*.ascx,**/*.asd,**/*.ash,**/*.ashx,**/*.asmx,**/*.asp,**/*.aspx,**/*.au3,**/*.aug,**/*.auk,**/*.aw,**/*.awk,**/*.axd,**/*.axi,**/*.axi.erb,**/*.axs,**/*.axs.erb,**/*.b,**/*.bas,**/*.bash,**/*.bat,**/*.bats,**/*.bb,**/*.befunge,**/*.bf,**/*.bison,**/*.bmx,**/*.bones,**/*.boo,**/*.boot,**/*.brd,**/*.bro,**/*.brs,**/*.bsl,**/*.bsv,**/*.builder,**/*.bzl,**/*.c,**/*.c++,**/*.cake,**/*.capnp,**/*.cats,**/*.cbl,**/*.cc,**/*.ccp,**/*.cdf,**/*.ceylon,**/*.cfc,**/*.cfm,**/*.cfml,**/*.cgi,**/*.ch,**/*.chpl,**/*.chs,**/*.cirru,**/*.cjsx,**/*.ck,**/*.cl,**/*.cl2,**/*.click,**/*.clj,**/*.cljc,**/*.cljs,**/*.cljs.hl,**/*.cljscm,**/*.cljx,**/*.clp,**/*.cls,**/*.clw,**/*.cmd,**/*.cob,**/*.cobol,**/*.coffee,**/*.com,**/*.command,**/*.coq,**/*.cp,**/*.cpp,**/*.cps,**/*.cpy,**/*.cr,**/*.cs,**/*.csd,**/*.cshtml,**/*.csx,**/*.ctp,**/*.cu,**/*.cuh,**/*.cw,**/*.cxx,**/*.cy,**/*.d,**/*.dart,**/*.dats,**/*.db2,**/*.dcl,**/*.decls,**/*.dfm,**/*.di,**/*.djs,**/*.dlm,**/*.dm,**/*.do,**/*.doh,**/*.dpr,**/*.druby,**/*.duby,**/*.dyalog,**/*.dyl,**/*.dylan,**/*.e,**/*.ec,**/*.ecl,**/*.eclxml,**/*.eh,**/*.el,**/*.eliom,**/*.eliomi,**/*.elm,**/*.em,**/*.emacs,**/*.emacs.desktop,**/*.emberscript,**/*.eq,**/*.erl,**/*.es,**/*.es6,**/*.escript,**/*.ex,**/*.exs,**/*.eye,**/*.f,**/*.f03,**/*.f08,**/*.f77,**/*.f90,**/*.f95,**/*.factor,**/*.fan,**/*.fancypack,**/*.fcgi,**/*.feature,**/*.flex,**/*.flux,**/*.for,**/*.forth,**/*.fp,**/*.fpp,**/*.fr,**/*.frag,**/*.frg,**/*.frm,**/*.frt,**/*.frx,**/*.fs,**/*.fsh,**/*.fshader,**/*.fsi,**/*.fsx,**/*.fth,**/*.ftl,**/*.fun,**/*.fx,**/*.fxh,**/*.fy,**/*.g,**/*.g4,**/*.gap,**/*.gawk,**/*.gd,**/*.gdb,**/*.gdbinit,**/*.gemspec,**/*.geo,**/*.geom,**/*.gf,**/*.gi,**/*.glf,**/*.glsl,**/*.glslv,**/*.gml,**/*.gms,**/*.gnu,**/*.gnuplot,**/*.go,**/*.god,**/*.golo,**/*.gp,**/*.grace,**/*.groovy,**/*.grt,**/*.gs,**/*.gshader,**/*.gsp,**/*.gst,**/*.gsx,**/*.gtpl,**/*.gvy,**/*.gyp,**/*.gypi,**/*.h,**/*.h++,**/*.hats,**/*.hb,**/*.hcl,**/*.hh,**/*.hic,**/*.hlean,**/*.hlsl,**/*.hlsli,**/*.hpp,**/*.hqf,**/*.hrl,**/*.hs,**/*.hsc,**/*.hx,**/*.hxsl,**/*.hxx,**/*.hy,**/*.i7x,**/*.iced,**/*.icl,**/*.idc,**/*.idr,**/*.ihlp,**/*.ijs,**/*.ik,**/*.ily,**/*.inc,**/*.inl,**/*.ino,**/*.intr,**/*.io,**/*.ipf,**/*.ipp,**/*.irbrc,**/*.iss,**/*.j,**/*.jake,**/*.java,**/*.jbuilder,**/*.jflex,**/*.ji,**/*.jison,**/*.jisonlex,**/*.jl,**/*.jq,**/*.js,**/*.jsb,**/*.jscad,**/*.jsfl,**/*.jsm,**/*.jsp,**/*.jss,**/*.jsx,**/*.kicad_pcb,**/*.kid,**/*.krl,**/*.ksh,**/*.kt,**/*.ktm,**/*.kts,**/*.l,**/*.lagda,**/*.las,**/*.lasso,**/*.lasso8,**/*.lasso9,**/*.ldml,**/*.lean,**/*.lex,**/*.lfe,**/*.lgt,**/*.lhs,**/*.lid,**/*.lidr,**/*.lisp,**/*.litcoffee,**/*.ll,**/*.lmi,**/*.logtalk,**/*.lol,**/*.lookml,**/*.lpr,**/*.ls,**/*.lsl,**/*.lslp,**/*.lsp,**/*.lua,**/*.lvproj,**/*.ly,**/*.m,**/*.m4,**/*.ma,**/*.mak,**/*.make,**/*.mako,**/*.mao,**/*.mata,**/*.matah,**/*.mathematica,**/*.matlab,**/*.mawk,**/*.maxhelp,**/*.maxpat,**/*.maxproj,**/*.mcr,**/*.metal,**/*.minid,**/*.mir,**/*.mirah,**/*.mk,**/*.mkfile,**/*.ml,**/*.ml4,**/*.mli,**/*.mll,**/*.mly,**/*.mm,**/*.mmk,**/*.mms,**/*.mo,**/*.mod,**/*.model.lkml,**/*.monkey,**/*.moo,**/*.moon,**/*.mq4,**/*.mq5,**/*.mqh,**/*.ms,**/*.mspec,**/*.mss,**/*.mt,**/*.mu,**/*.muf,**/*.mumps,**/*.mxt,**/*.myt,**/*.n,**/*.nawk,**/*.nb,**/*.nbp,**/*.nc,**/*.ncl,**/*.ni,**/*.nim,**/*.nimrod,**/*.nit,**/*.nix,**/*.njs,**/*.nl,**/*.nlogo,**/*.nqp,**/*.nse,**/*.nsh,**/*.nsi,**/*.nu,**/*.numpy,**/*.numpyw,**/*.numsc,**/*.nut,**/*.ny,**/*.omgrofl,**/*.ooc,**/*.opa,**/*.opal,**/*.opencl,**/*.orc,**/*.os,**/*.ox,**/*.oxh,**/*.oxo,**/*.oxygene,**/*.oz,**/*.p,**/*.p4,**/*.p6,**/*.p6l,**/*.p6m,**/*.pac,**/*.pan,**/*.parrot,**/*.pas,**/*.pascal,**/*.pasm,**/*.pat,**/*.pb,**/*.pbi,**/*.pbt,**/*.pck,**/*.pd,**/*.pd_lua,**/*.pde,**/*.perl,**/*.ph,**/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phps,**/*.phpt,**/*.pig,**/*.pike,**/*.pir,**/*.pkb,**/*.pks,**/*.pl,**/*.pl6,**/*.plb,**/*.plot,**/*.pls,**/*.plsql,**/*.plt,**/*.pluginspec,**/*.plx,**/*.pm,**/*.pm6,**/*.pmod,**/*.pod,**/*.podsl,**/*.podspec,**/*.pogo,**/*.pony,**/*.pov,**/*.pp,**/*.pprx,**/*.prg,**/*.pri,**/*.pro,**/*.prolog,**/*.prw,**/*.ps1,**/*.psc,**/*.psd1,**/*.psgi,**/*.psm1,**/*.purs,**/*.pwn,**/*.pxd,**/*.pxi,**/*.py,**/*.py3,**/*.pyde,**/*.pyp,**/*.pyt,**/*.pyw,**/*.pyx,**/*.qbs,**/*.qml,**/*.r,**/*.r2,**/*.r3,**/*.rabl,**/*.rake,**/*.rb,**/*.rbbas,**/*.rbfrm,**/*.rbmnu,**/*.rbres,**/*.rbtbar,**/*.rbuild,**/*.rbuistate,**/*.rbw,**/*.rbx,**/*.rbxs,**/*.rd,**/*.re,**/*.reb,**/*.rebol,**/*.red,**/*.reds,**/*.rei,**/*.rex,**/*.rexx,**/*.rg,**/*.rkt,**/*.rktd,**/*.rktl,**/*.rl,**/*.rpy,**/*.rs,**/*.rs.in,**/*.rsc,**/*.rsh,**/*.rsx,**/*.ru,**/*.ruby,**/*.sage,**/*.sagews,**/*.sas,**/*.sats,**/*.sbt,**/*.sc,**/*.scad,**/*.scala,**/*.scd,**/*.sce,**/*.sch,**/*.sci,**/*.scm,**/*.sco,**/*.scpt,**/*.scrbl,**/*.self,**/*.sexp,**/*.sh,**/*.sh-session,**/*.sh.in,**/*.shader,**/*.shen,**/*.sig,**/*.sj,**/*.sjs,**/*.sl,**/*.sld,**/*.sls,**/*.sma,**/*.smali,**/*.sml,**/*.smt,**/*.smt2,**/*.sp,**/*.spec,**/*.spin,**/*.sps,**/*.sqf,**/*.sql,**/*.sra,**/*.sru,**/*.srw,**/*.ss,**/*.ssjs,**/*.st,**/*.stan,**/*.sthlp,**/*.sv,**/*.svh,**/*.swift,**/*.t,**/*.tac,**/*.tcc,**/*.tcl,**/*.tf,**/*.thor,**/*.thrift,**/*.thy,**/*.tla,**/*.tm,**/*.tmux,**/*.tool,**/*.tpl,**/*.tpp,**/*.ts,**/*.tst,**/*.tsx,**/*.tu,**/*.txl,**/*.uc,**/*.udo,**/*.uno,**/*.upc,**/*.ur,**/*.urs,**/*.v,**/*.vala,**/*.vapi,**/*.vark,**/*.vb,**/*.vba,**/*.vbhtml,**/*.vbs,**/*.vcl,**/*.veo,**/*.vert,**/*.vh,**/*.vhd,**/*.vhdl,**/*.vhf,**/*.vhi,**/*.vho,**/*.vhs,**/*.vht,**/*.vhw,**/*.view.lkml,**/*.vim,**/*.volt,**/*.vrx,**/*.vsh,**/*.vshader,**/*.w,**/*.watchr,**/*.webidl,**/*.wisp,**/*.wl,**/*.wlt,**/*.wlua,**/*.wsgi,**/*.x,**/*.x10,**/*.xc,**/*.xi,**/*.xm,**/*.xojo_code,**/*.xojo_menu,**/*.xojo_report,**/*.xojo_script,**/*.xojo_toolbar,**/*.xojo_window,**/*.xpl,**/*.xproc,**/*.xpy,**/*.xq,**/*.xql,**/*.xqm,**/*.xquery,**/*.xqy,**/*.xrl,**/*.xs,**/*.xsjs,**/*.xsjslib,**/*.xsl,**/*.xslt,**/*.xsp-config,**/*.xsp.metadata,**/*.xtend,**/*.y,**/*.yacc,**/*.yap,**/*.yrl,**/*.yy,**/*.zep,**/*.zimpl,**/*.zmpl,**/*.zpl,**/*.zsh
+[INFO] [2023-12-29 19:11:08,457 +0530[ - Excluded file types: **/.*,**/node_modules,**/src/test,**/testdata,**/*sources.jar,**/*javadoc.jar
+[INFO] [2023-12-29 19:11:08,462 +0530[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2023-12-29 19:11:08,463 +0530[ - Scanning D:\java\coreJava
+[DEBUG] [2023-12-29 19:11:08,471 +0530[ - File/Folder Excluded: .git
+[DEBUG] [2023-12-29 19:11:08,472 +0530[ - File/Folder Excluded: .idea
+[DEBUG] [2023-12-29 19:11:08,473 +0530[ - Dependency file found location: D:\java\coreJava\pom.xml
+[INFO] [2023-12-29 19:11:08,499 +0530[ - Attempting to resolve dependencies
+[INFO] [2023-12-29 19:11:08,499 +0530[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2023-12-29 19:11:08,508 +0530[ - File/Folder Excluded: .git
+[DEBUG] [2023-12-29 19:11:08,509 +0530[ - File/Folder Excluded: .idea
+[DEBUG] [2023-12-29 19:11:08,509 +0530[ - FilesFrom: MavenDependencyResolver, Dependency file found location: D:\java\coreJava\pom.xml
+[DEBUG] [2023-12-29 19:11:08,523 +0530[ - top folders found:
+[DEBUG] [2023-12-29 19:11:08,523 +0530[ - +- D:\java\coreJava
+[DEBUG] [2023-12-29 19:11:08,524 +0530[ - |  +- D:\java\coreJava\pom.xml
+[DEBUG] [2023-12-29 19:11:08,525 +0530[ - Finishing reduce dependencies
+[INFO] [2023-12-29 19:11:08,525 +0530[ - Trying to resolve MAVEN dependencies
+[DEBUG] [2023-12-29 19:11:08,541 +0530[ - Command - executeProcess - timeout set to 60s
+[DEBUG] [2023-12-29 19:11:08,542 +0530[ - Command - executeProcess - start execute command 'cmd /c mvn -v' in '.'
+[DEBUG] [2023-12-29 19:11:08,838 +0530[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2023-12-29 19:11:08,838 +0530[ - Read line #1: Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+[DEBUG] [2023-12-29 19:11:08,838 +0530[ - Read line #2: Maven home: D:\Tools\maven\apache-maven-3.8.6
+[DEBUG] [2023-12-29 19:11:08,838 +0530[ - Read line #3: Java version: 11.0.16.1, vendor: Oracle Corporation, runtime: D:\Tools\java11\jdk-11.0.16.1
+[DEBUG] [2023-12-29 19:11:08,838 +0530[ - Read line #4: Default locale: en_IN, platform encoding: Cp1252
+[DEBUG] [2023-12-29 19:11:08,839 +0530[ - Read line #5: OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2023-12-29 19:11:08,839 +0530[ - MAVEN installation status: true
+[DEBUG] [2023-12-29 19:11:08,839 +0530[ - The command was run under D:\java\coreJava\.
+[INFO] [2023-12-29 19:11:08,839 +0530[ - topFolder = D:\java\coreJava
+[DEBUG] [2023-12-29 19:11:08,839 +0530[ - topFolder = D:\java\coreJava
+[DEBUG] [2023-12-29 19:11:08,840 +0530[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-12-29 19:11:08,840 +0530[ - Command - executeProcess - start execute command 'cmd /c mvn -v' in 'D:\java\coreJava'
+[DEBUG] [2023-12-29 19:11:09,117 +0530[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2023-12-29 19:11:09,117 +0530[ - Read line #1: Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+[DEBUG] [2023-12-29 19:11:09,117 +0530[ - Read line #2: Maven home: D:\Tools\maven\apache-maven-3.8.6
+[DEBUG] [2023-12-29 19:11:09,117 +0530[ - Read line #3: Java version: 11.0.16.1, vendor: Oracle Corporation, runtime: D:\Tools\java11\jdk-11.0.16.1
+[DEBUG] [2023-12-29 19:11:09,117 +0530[ - Read line #4: Default locale: en_IN, platform encoding: Cp1252
+[DEBUG] [2023-12-29 19:11:09,117 +0530[ - Read line #5: OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2023-12-29 19:11:09,117 +0530[ - using: Maven 3.8.6
+[DEBUG] [2023-12-29 19:11:09,118 +0530[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-12-29 19:11:09,118 +0530[ - Command - executeProcess - start execute command 'cmd /c mvn org.apache.maven.plugins:maven-dependency-plugin:2.8:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -Dverbose -DoutputType=text -T1 -B' in 'D:\java\coreJava'
+[DEBUG] [2023-12-29 19:11:11,674 +0530[ - Command result output lines for 'cmd /c mvn org.apache.maven.plugins:maven-dependency-plugin:2.8:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -Dverbose -DoutputType=text -T1 -B':
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #2: [WARNING] 
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #3: [WARNING] Some problems were encountered while building the effective model for com.org.uj:corejava:jar:0.0.1-SNAPSHOT
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #4: [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.avro:avro:jar -> version 1.9.0 vs 1.11.0 @ line 99, column 15
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #5: [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 162, column 21
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #6: [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 146, column 12
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #7: [WARNING] 
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #8: [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #9: [WARNING] 
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #10: [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #11: [WARNING] 
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #12: [INFO] 
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #13: [INFO] ------------------------< com.org.uj:corejava >-------------------------
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #14: [INFO] Building Core java basic 0.0.1-SNAPSHOT
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #15: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #16: [WARNING] The POM for org.apache.yetus:audience-annotations:jar:0.11.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #17: [INFO] 
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #18: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ corejava ---
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #19: [WARNING] Invalid POM for org.apache.yetus:audience-annotations:jar:0.11.0, transitive dependencies (if any) will not be available, enable debug logging for more details
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - Read line #20: [INFO] Wrote dependency tree to: D:\java\coreJava\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - Read line #21: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - Read line #22: [INFO] BUILD SUCCESS
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - Read line #23: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - Read line #24: [INFO] Total time:  1.528 s
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - Read line #25: [INFO] Finished at: 2023-12-29T19:11:11+05:30
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - Read line #26: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - MavenTreeDependencyCollector - getDependencyTreeOutputFiles - START
+[DEBUG] [2023-12-29 19:11:11,676 +0530[ - MavenTreeDependencyCollector - getDependencyTreeOutputFiles - found D:\java\coreJava\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2023-12-29 19:11:11,677 +0530[ - MavenTreeDependencyCollector - getDependencyTreeOutputFiles - END - 1
+[DEBUG] [2023-12-29 19:11:11,677 +0530[ - MavenTreeDependencyCollector - parseDepTrees - START
+[INFO] [2023-12-29 19:11:11,677 +0530[ - Start parsing pom files
+[DEBUG] [2023-12-29 19:11:11,678 +0530[ - MavenTreeParser - parse - START - D:\java\coreJava\whitesource_mvn_dependency_tree.txt
+[INFO] [2023-12-29 19:11:11,680 +0530[ - com.org.uj:corejava:jar:0.0.1-SNAPSHOT
+[INFO] [2023-12-29 19:11:11,680 +0530[ - +- org.projectlombok:lombok:jar:1.18.12:compile
+[INFO] [2023-12-29 19:11:11,681 +0530[ - +- io.github.classgraph:classgraph:jar:4.8.28:compile
+[INFO] [2023-12-29 19:11:11,682 +0530[ - +- org.python:jython-slim:jar:2.7.2:compile
+[INFO] [2023-12-29 19:11:11,682 +0530[ - |  +- org.antlr:antlr:jar:3.5.2:compile
+[INFO] [2023-12-29 19:11:11,682 +0530[ - |  |  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO] [2023-12-29 19:11:11,682 +0530[ - |  |  \- org.antlr:ST4:jar:4.0.8:compile
+[INFO] [2023-12-29 19:11:11,683 +0530[ - |  |     \- (org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,683 +0530[ - |  +- javax.servlet:javax.servlet-api:jar:3.1.0:runtime
+[INFO] [2023-12-29 19:11:11,683 +0530[ - |  +- (org.antlr:antlr-runtime:jar:3.5.2:compile - scope updated from runtime; omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,683 +0530[ - |  +- (org.apache.commons:commons-compress:jar:1.19:compile - scope updated from runtime; omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,683 +0530[ - |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.62:runtime
+[INFO] [2023-12-29 19:11:11,684 +0530[ - |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.62:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,684 +0530[ - |  +- org.bouncycastle:bcprov-jdk15on:jar:1.62:runtime
+[INFO] [2023-12-29 19:11:11,684 +0530[ - |  +- org.ow2.asm:asm:jar:7.1:runtime
+[INFO] [2023-12-29 19:11:11,685 +0530[ - |  +- org.ow2.asm:asm-commons:jar:7.1:runtime
+[INFO] [2023-12-29 19:11:11,685 +0530[ - |  |  +- (org.ow2.asm:asm:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,685 +0530[ - |  |  +- org.ow2.asm:asm-tree:jar:7.1:runtime
+[INFO] [2023-12-29 19:11:11,685 +0530[ - |  |  |  \- (org.ow2.asm:asm:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,685 +0530[ - |  |  \- org.ow2.asm:asm-analysis:jar:7.1:runtime
+[INFO] [2023-12-29 19:11:11,686 +0530[ - |  |     \- (org.ow2.asm:asm-tree:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,686 +0530[ - |  +- org.ow2.asm:asm-util:jar:7.1:runtime
+[INFO] [2023-12-29 19:11:11,686 +0530[ - |  |  +- (org.ow2.asm:asm:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,686 +0530[ - |  |  +- (org.ow2.asm:asm-tree:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,687 +0530[ - |  |  \- (org.ow2.asm:asm-analysis:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,687 +0530[ - |  +- com.google.guava:guava:jar:28.0-android:runtime
+[INFO] [2023-12-29 19:11:11,687 +0530[ - |  |  +- (com.google.guava:failureaccess:jar:1.0.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,687 +0530[ - |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:runtime
+[INFO] [2023-12-29 19:11:11,688 +0530[ - |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:runtime
+[INFO] [2023-12-29 19:11:11,688 +0530[ - |  |  +- org.checkerframework:checker-compat-qual:jar:2.5.5:runtime
+[INFO] [2023-12-29 19:11:11,688 +0530[ - |  |  +- com.google.errorprone:error_prone_annotations:jar:2.3.2:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  |  +- com.google.j2objc:j2objc-annotations:jar:1.3:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  +- com.google.guava:failureaccess:jar:1.0.1:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  +- com.ibm.icu:icu4j:jar:59.1:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  +- com.carrotsearch:java-sizeof:jar:0.0.5:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  +- com.github.jnr:jffi:jar:1.2.20:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  +- com.github.jnr:jnr-netdb:jar:1.1.6:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  |  \- (com.github.jnr:jnr-ffi:jar:2.1.0:runtime - omitted for conflict with 2.1.10)
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  +- com.github.jnr:jnr-ffi:jar:2.1.10:runtime
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  |  +- (com.github.jnr:jffi:jar:1.2.19:runtime - omitted for conflict with 1.2.20)
+[INFO] [2023-12-29 19:11:11,689 +0530[ - |  |  +- com.github.jnr:jffi:jar:native:1.2.19:runtime
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  |  +- (org.ow2.asm:asm:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  |  +- (org.ow2.asm:asm-commons:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  |  +- (org.ow2.asm:asm-analysis:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  |  +- (org.ow2.asm:asm-tree:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  |  +- (org.ow2.asm:asm-util:jar:7.1:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  |  +- com.github.jnr:jnr-a64asm:jar:1.0.0:runtime
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:runtime
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  +- com.github.jnr:jnr-posix:jar:3.0.50:runtime
+[INFO] [2023-12-29 19:11:11,690 +0530[ - |  |  +- (com.github.jnr:jnr-ffi:jar:2.1.10:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  |  \- (com.github.jnr:jnr-constants:jar:0.9.12:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  +- com.github.jnr:jnr-constants:jar:0.9.12:runtime
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  +- jline:jline:jar:2.14.5:runtime
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  +- io.netty:netty-buffer:jar:4.1.45.Final:runtime
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  |  \- (io.netty:netty-common:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  +- io.netty:netty-codec:jar:4.1.45.Final:runtime
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  |  +- (io.netty:netty-common:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  |  +- (io.netty:netty-buffer:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,691 +0530[ - |  |  \- (io.netty:netty-transport:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  +- io.netty:netty-common:jar:4.1.45.Final:runtime
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  +- io.netty:netty-handler:jar:4.1.45.Final:runtime
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  |  +- (io.netty:netty-common:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  |  +- (io.netty:netty-buffer:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  |  +- (io.netty:netty-transport:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  |  \- (io.netty:netty-codec:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  +- io.netty:netty-resolver:jar:4.1.45.Final:runtime
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  |  \- (io.netty:netty-common:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,692 +0530[ - |  +- io.netty:netty-transport:jar:4.1.45.Final:runtime
+[INFO] [2023-12-29 19:11:11,693 +0530[ - |  |  +- (io.netty:netty-common:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,693 +0530[ - |  |  +- (io.netty:netty-buffer:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,693 +0530[ - |  |  \- (io.netty:netty-resolver:jar:4.1.45.Final:runtime - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,693 +0530[ - |  \- org.apache.ant:ant:jar:1.9.7:runtime
+[INFO] [2023-12-29 19:11:11,693 +0530[ - |     \- org.apache.ant:ant-launcher:jar:1.9.7:runtime
+[INFO] [2023-12-29 19:11:11,693 +0530[ - +- org.slf4j:slf4j-api:jar:1.7.30:compile
+[INFO] [2023-12-29 19:11:11,693 +0530[ - +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] [2023-12-29 19:11:11,693 +0530[ - |  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,693 +0530[ - |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.30)
+[INFO] [2023-12-29 19:11:11,694 +0530[ - +- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] [2023-12-29 19:11:11,694 +0530[ - +- org.slf4j:jcl-over-slf4j:jar:1.7.30:compile
+[INFO] [2023-12-29 19:11:11,694 +0530[ - |  \- (org.slf4j:slf4j-api:jar:1.7.30:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,694 +0530[ - +- org.apache.parquet:parquet-hadoop:jar:1.11.0:compile
+[INFO] [2023-12-29 19:11:11,694 +0530[ - |  +- org.apache.parquet:parquet-column:jar:1.11.0:compile
+[INFO] [2023-12-29 19:11:11,695 +0530[ - |  |  +- org.apache.parquet:parquet-common:jar:1.11.0:compile
+[INFO] [2023-12-29 19:11:11,695 +0530[ - |  |  |  +- (org.apache.parquet:parquet-format-structures:jar:1.11.0:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,695 +0530[ - |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.30)
+[INFO] [2023-12-29 19:11:11,695 +0530[ - |  |  |  \- org.apache.yetus:audience-annotations:jar:0.11.0:compile
+[INFO] [2023-12-29 19:11:11,695 +0530[ - |  |  \- org.apache.parquet:parquet-encoding:jar:1.11.0:compile
+[INFO] [2023-12-29 19:11:11,695 +0530[ - |  |     \- (org.apache.parquet:parquet-common:jar:1.11.0:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,696 +0530[ - |  +- org.apache.parquet:parquet-format-structures:jar:1.11.0:compile
+[INFO] [2023-12-29 19:11:11,696 +0530[ - |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.30)
+[INFO] [2023-12-29 19:11:11,696 +0530[ - |  |  \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] [2023-12-29 19:11:11,696 +0530[ - |  +- org.apache.parquet:parquet-jackson:jar:1.11.0:compile
+[INFO] [2023-12-29 19:11:11,697 +0530[ - |  +- org.xerial.snappy:snappy-java:jar:1.1.7.3:compile
+[INFO] [2023-12-29 19:11:11,697 +0530[ - |  \- commons-pool:commons-pool:jar:1.6:compile
+[INFO] [2023-12-29 19:11:11,697 +0530[ - +- org.apache.hadoop:hadoop-core:jar:1.2.1:compile
+[INFO] [2023-12-29 19:11:11,697 +0530[ - |  +- commons-cli:commons-cli:jar:1.2:compile
+[INFO] [2023-12-29 19:11:11,697 +0530[ - |  +- xmlenc:xmlenc:jar:0.52:compile
+[INFO] [2023-12-29 19:11:11,697 +0530[ - |  +- com.sun.jersey:jersey-core:jar:1.8:compile
+[INFO] [2023-12-29 19:11:11,698 +0530[ - |  +- com.sun.jersey:jersey-json:jar:1.8:compile
+[INFO] [2023-12-29 19:11:11,698 +0530[ - |  |  +- org.codehaus.jettison:jettison:jar:1.1:compile
+[INFO] [2023-12-29 19:11:11,698 +0530[ - |  |  |  \- stax:stax-api:jar:1.0.1:compile
+[INFO] [2023-12-29 19:11:11,698 +0530[ - |  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile
+[INFO] [2023-12-29 19:11:11,698 +0530[ - |  |  |  \- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+[INFO] [2023-12-29 19:11:11,698 +0530[ - |  |  |     +- javax.xml.stream:stax-api:jar:1.0-2:compile
+[INFO] [2023-12-29 19:11:11,698 +0530[ - |  |  |     \- javax.activation:activation:jar:1.1:compile
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.7.1:compile
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1:compile - omitted for conflict with 1.8.8)
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.7.1:compile
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.7.1:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  +- org.codehaus.jackson:jackson-xc:jar:1.7.1:compile
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.7.1:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.7.1:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  \- (com.sun.jersey:jersey-core:jar:1.8:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  +- com.sun.jersey:jersey-server:jar:1.8:compile
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  +- asm:asm:jar:3.1:compile
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  \- (com.sun.jersey:jersey-core:jar:1.8:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  +- commons-io:commons-io:jar:2.1:compile
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  +- commons-httpclient:commons-httpclient:jar:3.0.1:compile
+[INFO] [2023-12-29 19:11:11,699 +0530[ - |  |  +- junit:junit:jar:3.8.1:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  +- commons-logging:commons-logging:jar:1.0.3:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.4)
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  +- commons-codec:commons-codec:jar:1.4:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  +- org.apache.commons:commons-math:jar:2.1:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  +- commons-configuration:commons-configuration:jar:1.6:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  +- commons-lang:commons-lang:jar:2.4:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.0.3)
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  +- commons-digester:commons-digester:jar:1.8:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  |  +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  |  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.0.3)
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.0.3)
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  +- commons-net:commons-net:jar:1.4.1:compile
+[INFO] [2023-12-29 19:11:11,700 +0530[ - |  |  \- (oro:oro:jar:2.0.8:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  +- org.mortbay.jetty:jetty:jar:6.1.26:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  |  \- org.mortbay.jetty:servlet-api:jar:2.5-20081211:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  +- tomcat:jasper-runtime:jar:5.5.12:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  +- tomcat:jasper-compiler:jar:5.5.12:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  +- org.mortbay.jetty:jsp-api-2.1:jar:6.1.14:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  |  \- org.mortbay.jetty:servlet-api-2.5:jar:6.1.14:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  +- org.mortbay.jetty:jsp-2.1:jar:6.1.14:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  |  +- (org.eclipse.jdt:core:jar:3.1.1:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  |  +- (org.mortbay.jetty:jsp-api-2.1:jar:6.1.14:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  |  \- ant:ant:jar:1.6.5:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  +- commons-el:commons-el:jar:1.0:compile
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,701 +0530[ - |  +- net.java.dev.jets3t:jets3t:jar:0.6.1:compile
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  |  +- (commons-codec:commons-codec:jar:1.3:compile - omitted for conflict with 1.4)
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.0.3)
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  |  \- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for conflict with 3.0.1)
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  +- hsqldb:hsqldb:jar:1.8.0.10:compile
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  +- oro:oro:jar:2.0.8:compile
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  +- org.eclipse.jdt:core:jar:3.1.1:compile
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |     \- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for conflict with 1.7.1)
+[INFO] [2023-12-29 19:11:11,702 +0530[ - +- joda-time:joda-time:jar:2.10.6:compile
+[INFO] [2023-12-29 19:11:11,702 +0530[ - +- org.apache.parquet:parquet-avro:jar:1.10.1:compile
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  +- (org.apache.parquet:parquet-column:jar:1.10.1:compile - omitted for conflict with 1.11.0)
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  +- (org.apache.parquet:parquet-hadoop:jar:1.10.1:compile - omitted for conflict with 1.11.0)
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  +- org.apache.parquet:parquet-format:jar:2.4.0:compile
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.30)
+[INFO] [2023-12-29 19:11:11,702 +0530[ - |  +- (org.apache.avro:avro:jar:1.8.2:compile - omitted for conflict with 1.11.0)
+[INFO] [2023-12-29 19:11:11,703 +0530[ - |  \- it.unimi.dsi:fastutil:jar:7.0.13:compile
+[INFO] [2023-12-29 19:11:11,703 +0530[ - \- org.apache.avro:avro:jar:1.11.0:compile
+[INFO] [2023-12-29 19:11:11,703 +0530[ -    +- com.fasterxml.jackson.core:jackson-core:jar:2.12.5:compile
+[INFO] [2023-12-29 19:11:11,703 +0530[ -    +- com.fasterxml.jackson.core:jackson-databind:jar:2.12.5:compile
+[INFO] [2023-12-29 19:11:11,703 +0530[ -    |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.12.5:compile
+[INFO] [2023-12-29 19:11:11,703 +0530[ -    |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.12.5:compile - omitted for duplicate)
+[INFO] [2023-12-29 19:11:11,703 +0530[ -    +- org.apache.commons:commons-compress:jar:1.21:compile
+[INFO] [2023-12-29 19:11:11,703 +0530[ -    \- (org.slf4j:slf4j-api:jar:1.7.32:compile - omitted for conflict with 1.7.30)
+[DEBUG] [2023-12-29 19:11:11,704 +0530[ - MavenTreeParser - parseTree - START
+[DEBUG] [2023-12-29 19:11:11,707 +0530[ - Unexpected duplication of the dep: com.github.jnr:jffi
+[DEBUG] [2023-12-29 19:11:11,707 +0530[ - MavenTreeParser - successfully parsed module: com.org.uj:corejava:0.0.1-SNAPSHOT
+[DEBUG] [2023-12-29 19:11:11,707 +0530[ - MavenTreeParser - parseTree - END
+[DEBUG] [2023-12-29 19:11:11,707 +0530[ - MavenTreeParser - parse - END - status false
+[INFO] [2023-12-29 19:11:11,711 +0530[ - End parsing pom files, found : corejava
+[DEBUG] [2023-12-29 19:11:11,711 +0530[ - MavenTreeDependencyCollector - parseDepTrees - END - 1
+[INFO] [2023-12-29 19:11:11,711 +0530[ - The following maven scopes will be ignored : [test, provided]
+[DEBUG] [2023-12-29 19:11:11,714 +0530[ - converting node to dependency : lombok
+[DEBUG] [2023-12-29 19:11:11,719 +0530[ - converting node to dependency : classgraph
+[DEBUG] [2023-12-29 19:11:11,720 +0530[ - converting node to dependency : jython-slim
+[DEBUG] [2023-12-29 19:11:11,720 +0530[ - converting node to dependency : antlr
+[DEBUG] [2023-12-29 19:11:11,720 +0530[ - converting node to dependency : antlr-runtime
+[DEBUG] [2023-12-29 19:11:11,720 +0530[ - converting node to dependency : ST4
+[DEBUG] [2023-12-29 19:11:11,720 +0530[ - converting node to dependency : antlr-runtime
+[DEBUG] [2023-12-29 19:11:11,720 +0530[ - converting node to dependency : javax.servlet-api
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : antlr-runtime
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : commons-compress
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : bcpkix-jdk15on
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : bcprov-jdk15on
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : bcprov-jdk15on
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : asm
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : asm-commons
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : asm
+[DEBUG] [2023-12-29 19:11:11,721 +0530[ - converting node to dependency : asm-tree
+[DEBUG] [2023-12-29 19:11:11,722 +0530[ - converting node to dependency : asm
+[DEBUG] [2023-12-29 19:11:11,722 +0530[ - converting node to dependency : asm-analysis
+[DEBUG] [2023-12-29 19:11:11,722 +0530[ - converting node to dependency : asm-tree
+[DEBUG] [2023-12-29 19:11:11,722 +0530[ - converting node to dependency : asm-util
+[DEBUG] [2023-12-29 19:11:11,722 +0530[ - converting node to dependency : asm
+[DEBUG] [2023-12-29 19:11:11,722 +0530[ - converting node to dependency : asm-tree
+[DEBUG] [2023-12-29 19:11:11,722 +0530[ - converting node to dependency : asm-analysis
+[DEBUG] [2023-12-29 19:11:11,722 +0530[ - converting node to dependency : guava
+[DEBUG] [2023-12-29 19:11:11,723 +0530[ - converting node to dependency : failureaccess
+[DEBUG] [2023-12-29 19:11:11,723 +0530[ - converting node to dependency : listenablefuture
+[DEBUG] [2023-12-29 19:11:11,723 +0530[ - converting node to dependency : jsr305
+[DEBUG] [2023-12-29 19:11:11,723 +0530[ - converting node to dependency : checker-compat-qual
+[DEBUG] [2023-12-29 19:11:11,723 +0530[ - converting node to dependency : error_prone_annotations
+[DEBUG] [2023-12-29 19:11:11,723 +0530[ - converting node to dependency : j2objc-annotations
+[DEBUG] [2023-12-29 19:11:11,723 +0530[ - converting node to dependency : animal-sniffer-annotations
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : failureaccess
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : icu4j
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : java-sizeof
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : jffi
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : jnr-netdb
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : jnr-ffi
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : jffi
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : jffi
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : asm
+[DEBUG] [2023-12-29 19:11:11,724 +0530[ - converting node to dependency : asm-commons
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : asm-analysis
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : asm-tree
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : asm-util
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : jnr-a64asm
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : jnr-x86asm
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : jnr-ffi
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : jnr-posix
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : jnr-ffi
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : jnr-constants
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : jnr-constants
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : jline
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : netty-buffer
+[DEBUG] [2023-12-29 19:11:11,725 +0530[ - converting node to dependency : netty-common
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-codec
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-common
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-buffer
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-transport
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-common
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-buffer
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-resolver
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-common
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-common
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-handler
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-common
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-buffer
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-transport
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-codec
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-resolver
+[DEBUG] [2023-12-29 19:11:11,726 +0530[ - converting node to dependency : netty-transport
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : ant
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : ant-launcher
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : slf4j-api
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : logback-classic
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : logback-core
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : slf4j-api
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : logback-core
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : jcl-over-slf4j
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : slf4j-api
+[DEBUG] [2023-12-29 19:11:11,727 +0530[ - converting node to dependency : parquet-hadoop
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : parquet-column
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : parquet-common
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : parquet-format-structures
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : slf4j-api
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : javax.annotation-api
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : slf4j-api
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : audience-annotations
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : parquet-encoding
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : parquet-common
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : parquet-format-structures
+[DEBUG] [2023-12-29 19:11:11,728 +0530[ - converting node to dependency : parquet-jackson
+[DEBUG] [2023-12-29 19:11:11,729 +0530[ - converting node to dependency : snappy-java
+[DEBUG] [2023-12-29 19:11:11,729 +0530[ - converting node to dependency : commons-pool
+[DEBUG] [2023-12-29 19:11:11,729 +0530[ - converting node to dependency : hadoop-core
+[DEBUG] [2023-12-29 19:11:11,729 +0530[ - converting node to dependency : commons-cli
+[DEBUG] [2023-12-29 19:11:11,729 +0530[ - converting node to dependency : xmlenc
+[DEBUG] [2023-12-29 19:11:11,729 +0530[ - converting node to dependency : jersey-core
+[DEBUG] [2023-12-29 19:11:11,730 +0530[ - converting node to dependency : jersey-json
+[DEBUG] [2023-12-29 19:11:11,730 +0530[ - converting node to dependency : jettison
+[DEBUG] [2023-12-29 19:11:11,730 +0530[ - converting node to dependency : stax-api
+[DEBUG] [2023-12-29 19:11:11,730 +0530[ - converting node to dependency : jaxb-impl
+[DEBUG] [2023-12-29 19:11:11,730 +0530[ - converting node to dependency : jaxb-api
+[DEBUG] [2023-12-29 19:11:11,731 +0530[ - converting node to dependency : stax-api
+[DEBUG] [2023-12-29 19:11:11,731 +0530[ - converting node to dependency : activation
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-core-asl
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-mapper-asl
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-core-asl
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-jaxrs
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-core-asl
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-mapper-asl
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-xc
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-core-asl
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jackson-mapper-asl
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jersey-core
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jersey-server
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : asm
+[DEBUG] [2023-12-29 19:11:11,732 +0530[ - converting node to dependency : jersey-core
+[DEBUG] [2023-12-29 19:11:11,733 +0530[ - converting node to dependency : commons-io
+[DEBUG] [2023-12-29 19:11:11,733 +0530[ - converting node to dependency : commons-httpclient
+[DEBUG] [2023-12-29 19:11:11,733 +0530[ - converting node to dependency : junit
+[DEBUG] [2023-12-29 19:11:11,733 +0530[ - converting node to dependency : commons-logging
+[DEBUG] [2023-12-29 19:11:11,733 +0530[ - converting node to dependency : commons-codec
+[DEBUG] [2023-12-29 19:11:11,733 +0530[ - converting node to dependency : commons-codec
+[DEBUG] [2023-12-29 19:11:11,733 +0530[ - converting node to dependency : commons-math
+[DEBUG] [2023-12-29 19:11:11,733 +0530[ - converting node to dependency : commons-configuration
+[DEBUG] [2023-12-29 19:11:11,734 +0530[ - converting node to dependency : commons-collections
+[DEBUG] [2023-12-29 19:11:11,734 +0530[ - converting node to dependency : commons-lang
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : commons-logging
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : commons-digester
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : commons-beanutils
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : commons-logging
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : commons-logging
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : commons-beanutils-core
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : commons-logging
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : commons-net
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : oro
+[DEBUG] [2023-12-29 19:11:11,735 +0530[ - converting node to dependency : jetty
+[DEBUG] [2023-12-29 19:11:11,736 +0530[ - converting node to dependency : jetty-util
+[DEBUG] [2023-12-29 19:11:11,736 +0530[ - converting node to dependency : servlet-api
+[DEBUG] [2023-12-29 19:11:11,736 +0530[ - converting node to dependency : jetty-util
+[DEBUG] [2023-12-29 19:11:11,736 +0530[ - converting node to dependency : jasper-runtime
+[DEBUG] [2023-12-29 19:11:11,736 +0530[ - converting node to dependency : jasper-compiler
+[DEBUG] [2023-12-29 19:11:11,736 +0530[ - converting node to dependency : jsp-api-2.1
+[DEBUG] [2023-12-29 19:11:11,737 +0530[ - converting node to dependency : servlet-api-2.5
+[DEBUG] [2023-12-29 19:11:11,737 +0530[ - converting node to dependency : jsp-2.1
+[DEBUG] [2023-12-29 19:11:11,737 +0530[ - converting node to dependency : core
+[DEBUG] [2023-12-29 19:11:11,737 +0530[ - converting node to dependency : jsp-api-2.1
+[DEBUG] [2023-12-29 19:11:11,737 +0530[ - converting node to dependency : ant
+[DEBUG] [2023-12-29 19:11:11,737 +0530[ - converting node to dependency : commons-el
+[DEBUG] [2023-12-29 19:11:11,737 +0530[ - converting node to dependency : commons-logging
+[DEBUG] [2023-12-29 19:11:11,737 +0530[ - converting node to dependency : jets3t
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : commons-codec
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : commons-logging
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : commons-httpclient
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : hsqldb
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : oro
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : core
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : jackson-mapper-asl
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : joda-time
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : parquet-avro
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : parquet-column
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : parquet-hadoop
+[DEBUG] [2023-12-29 19:11:11,738 +0530[ - converting node to dependency : parquet-format
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : slf4j-api
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : avro
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : jackson-core
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : jackson-databind
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : jackson-annotations
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : jackson-core
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : commons-compress
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : slf4j-api
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : fastutil
+[DEBUG] [2023-12-29 19:11:11,740 +0530[ - converting node to dependency : avro
+[DEBUG] [2023-12-29 19:11:11,812 +0530[ - Project/Module coordinates: Coordinates@c2399802[groupId= com.org.uj,artifactId= corejava,version= 0.0.1-SNAPSHOT ]
+[DEBUG] [2023-12-29 19:11:11,812 +0530[ - Total project direct dependencies found : 10
+[DEBUG] [2023-12-29 19:11:11,813 +0530[ - ProjectInfo direct dependency added : 10
+[DEBUG] [2023-12-29 19:11:11,829 +0530[ - DependencyResolutionService - get dependency count statistics
+[DEBUG] [2023-12-29 19:11:11,830 +0530[ - File/Folder Excluded: .git
+[DEBUG] [2023-12-29 19:11:11,830 +0530[ - File/Folder Excluded: .idea
+[DEBUG] [2023-12-29 19:11:11,832 +0530[ - File/Folder Excluded: target
+[DEBUG] [2023-12-29 19:11:11,834 +0530[ - top folders found:
+[INFO] [2023-12-29 19:11:11,834 +0530[ - Trying to resolve HTML dependencies
+[DEBUG] [2023-12-29 19:11:11,834 +0530[ - HTML installation status: true
+[DEBUG] [2023-12-29 19:11:11,834 +0530[ - The command was run under D:\java\coreJava\.
+[INFO] [2023-12-29 19:11:11,834 +0530[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2023-12-29 19:11:11,835 +0530[ - total resolved projects =1
+[INFO] [2023-12-29 19:11:11,836 +0530[ - Scanning directories [D:\java\coreJava] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2023-12-29 19:11:11,837 +0530[ - Scanning D:\java\coreJava
+[DEBUG] [2023-12-29 19:11:11,843 +0530[ - File/Folder Excluded: .git
+[DEBUG] [2023-12-29 19:11:11,844 +0530[ - File/Folder Excluded: .idea
+[DEBUG] [2023-12-29 19:11:11,847 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\AddTwoNumbersUsingLamdaExpression.java
+[DEBUG] [2023-12-29 19:11:11,849 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\amdocs\ChachedMemoryMechanism.java
+[DEBUG] [2023-12-29 19:11:11,850 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\amdocs\GroupByItemAndBrandScenario.java
+[DEBUG] [2023-12-29 19:11:11,851 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\AutoBoxingUnBoxingWideningScenarios.java
+[DEBUG] [2023-12-29 19:11:11,852 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\BasicMethodOverLoadingScenario.java
+[DEBUG] [2023-12-29 19:11:11,853 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\classgarph\ClassGraphDemo.java
+[DEBUG] [2023-12-29 19:11:11,854 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\CombinedMultipleListsUsingFlatMapOperation.java
+[DEBUG] [2023-12-29 19:11:11,855 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\ComparingListOfCustomObjects.java
+[DEBUG] [2023-12-29 19:11:11,855 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\EqualsAndHashcodeForCustomeObject.java
+[DEBUG] [2023-12-29 19:11:11,856 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\ExceptionHierachyTest.java
+[DEBUG] [2023-12-29 19:11:11,857 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\FindClosestElementInArray.java
+[DEBUG] [2023-12-29 19:11:11,858 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\FrequencyMapTest.java
+[DEBUG] [2023-12-29 19:11:11,859 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\FunctionalIntefaceTest.java
+[DEBUG] [2023-12-29 19:11:11,860 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\HashSetAndHashMapTest.java
+[DEBUG] [2023-12-29 19:11:11,861 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\JavaIoTempdirTest.java
+[DEBUG] [2023-12-29 19:11:11,863 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\model\Employee.java
+[DEBUG] [2023-12-29 19:11:11,864 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\model\Person.java
+[DEBUG] [2023-12-29 19:11:11,866 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\model\TestEmployee.java
+[DEBUG] [2023-12-29 19:11:11,867 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\MultipleInheritancAndInterfaceDefualtOverridingTest.java
+[DEBUG] [2023-12-29 19:11:11,869 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\ParentChildClassObjectReferenceTest.java
+[DEBUG] [2023-12-29 19:11:11,870 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\PrintHelloUsingLambdaExpression.java
+[DEBUG] [2023-12-29 19:11:11,875 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\programs\CountNumberOfDigitInGIvenNumbers.java
+[DEBUG] [2023-12-29 19:11:11,876 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\programs\ShiftingGivenNumberInArrayAtTheEnd.java
+[DEBUG] [2023-12-29 19:11:11,877 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\SortingUsingNewLambdaWay.java
+[DEBUG] [2023-12-29 19:11:11,877 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\SortingUsingOldWay.java
+[DEBUG] [2023-12-29 19:11:11,878 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\StaticCheck.java
+[DEBUG] [2023-12-29 19:11:11,879 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\StaticNonStatictConstructorExecutionBlockTest.java
+[DEBUG] [2023-12-29 19:11:11,879 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\StaticVariableVsLocalVariables.java
+[DEBUG] [2023-12-29 19:11:11,881 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\StreamApiManipulationDemo.java
+[DEBUG] [2023-12-29 19:11:11,882 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\TestinMapApisInJava8.java
+[DEBUG] [2023-12-29 19:11:11,882 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\ThreadsDemo.java
+[DEBUG] [2023-12-29 19:11:11,883 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\TreeSetAndTreeMap.java
+[DEBUG] [2023-12-29 19:11:11,884 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\TryAndFinallyBasicQuestion.java
+[DEBUG] [2023-12-29 19:11:11,884 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\util\Utils.java
+[DEBUG] [2023-12-29 19:11:11,885 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\corejava\VariableScopeInClassMethodAndInThreadScenarion.java
+[DEBUG] [2023-12-29 19:11:11,887 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\jython\demo\JythonDemo.java
+[DEBUG] [2023-12-29 19:11:11,888 +0530[ - Dependency file found location: D:\java\coreJava\src\main\java\parquetdemo\App.java
+[DEBUG] [2023-12-29 19:11:11,891 +0530[ - File/Folder Excluded: target
+[INFO] [2023-12-29 19:11:11,895 +0530[ - Total files found according to the includes/excludes pattern: 37
+[DEBUG] [2023-12-29 19:11:12,298 +0530[ - Ignoring file with size 443 bytes: minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,314 +0530[ - Ignored file FunctionalIntefaceTest.java (129 bytes): minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,319 +0530[ - Ignored file PrintHelloUsingLambdaExpression.java (294 bytes): minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,323 +0530[ - Ignored file CountNumberOfDigitInGIvenNumbers.java (386 bytes): minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,333 +0530[ - Ignored file JavaIoTempdirTest.java (433 bytes): minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,342 +0530[ - Ignoring file with size 454 bytes: minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,376 +0530[ - Ignored file Person.java (303 bytes): minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,386 +0530[ - Ignored file ThreadsDemo.java (416 bytes): minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,395 +0530[ - Ignoring file with size 502 bytes: minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,403 +0530[ - Ignoring file with size 501 bytes: minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,427 +0530[ - Ignoring file with size 443 bytes: minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,445 +0530[ - Ignored file AddTwoNumbersUsingLamdaExpression.java (328 bytes): minimum file size is 512B
+[DEBUG] [2023-12-29 19:11:12,450 +0530[ - Ignored file Employee.java (291 bytes): minimum file size is 512B
+[INFO] [2023-12-29 19:11:12,461 +0530[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2023-12-29 19:11:12,461 +0530[ - Finished analyzing Files
+[DEBUG] [2023-12-29 19:11:12,462 +0530[ - Available processors (cores): 	8
+Free memory (Mb): 	1284
+Max memory (Mb): 	4022
+Total memory (Mb): 	1538
+Used memory (Mb): 	253
+
+[DEBUG] [2023-12-29 19:11:12,482 +0530[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2023-12-29 19:11:12,482 +0530[ - Command - executeProcess - start execute command 'cmd /c reg query HKU\S-1-5-19' in '.'
+[WARN] [2023-12-29 19:11:12,512 +0530[ - Command - executeProcess - error in execute command 'cmd /c reg query HKU\S-1-5-19', Exit Status 1
+[DEBUG] [2023-12-29 19:11:12,516 +0530[ - GitUtils - fetchContributionInfos - START
+[DEBUG] [2023-12-29 19:11:12,518 +0530[ - GitUtils - findGitRepoPaths - .
+[DEBUG] [2023-12-29 19:11:12,518 +0530[ - Folder added : D:\java\coreJava\.\.git
+[DEBUG] [2023-12-29 19:11:15,666 +0530[ - GitUtils - fetchContributingDevelopers - START - D:\java\coreJava\.git
+[DEBUG] [2023-12-29 19:11:15,698 +0530[ - GitUtils - fetchContributingDevelopers - END - 0
+[DEBUG] [2023-12-29 19:11:15,704 +0530[ - GitUtils - fetchContributionInfos - END - 1
+[INFO] [2023-12-29 19:11:15,704 +0530[ - Initializing WhiteSource Client
+[DEBUG] [2023-12-29 19:11:15,704 +0530[ - Setting project tags
+[INFO] [2023-12-29 19:11:15,705 +0530[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2023-12-29 19:11:15,726 +0530[ - Generating offline update request
+[INFO] [2023-12-29 19:11:15,728 +0530[ - UpdateType offline set to OVERRIDE 
+[INFO] [2023-12-29 19:11:15,762 +0530[ - Offline request generated successfully at D:\java\coreJava\.\whitesource\update-request.txt
+[DEBUG] [2023-12-29 19:11:15,841 +0530[ - Process finished with exit code SUCCESS (Offline request generated successfully at D:\java\coreJava\.\whitesource\update-request.txt)
+[INFO] [2023-12-29 19:11:15,841 +0530[ - Log files are found at: .\whitesource\Fri-Dec-29-2023-19.11.07
+[INFO] [2023-12-29 19:11:15,846 +0530[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.114               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:00:03.335               108 total dependencies (108 unique)
+   MAVEN                                             COMPLETED                  00:00:03.305               108 total dependencies (108 unique)
+   HTML                                              COMPLETED                    --------                 0 dependencies
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.663               37 source/binary files
+   java                                              COMPLETED                    --------                 37 source/binary files
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:00:04.112
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+

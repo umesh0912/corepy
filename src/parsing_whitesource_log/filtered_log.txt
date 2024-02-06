@@ -1,0 +1,64 @@
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #2: [WARNING] 
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #3: [WARNING] Some problems were encountered while building the effective model for com.org.uj:corejava:jar:0.0.1-SNAPSHOT
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #4: [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.avro:avro:jar -> version 1.9.0 vs 1.11.0 @ line 99, column 15
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #5: [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 162, column 21
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #6: [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 146, column 12
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #7: [WARNING] 
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #8: [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #9: [WARNING] 
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #10: [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #11: [WARNING] 
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #16: [WARNING] The POM for org.apache.yetus:audience-annotations:jar:0.11.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+[DEBUG] [2023-12-29 19:11:11,675 +0530[ - Read line #19: [WARNING] Invalid POM for org.apache.yetus:audience-annotations:jar:0.11.0, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+[DEBUG] [2023-12-29 19:11:07,476 +0530] - Base url:'https://saas.whitesourcesoftware.com' 
+
+[INFO] [2023-12-29 19:11:07,661 +0530[ - UnifiedAgent version (pluginVersion) : 23.8.2
+
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+======================================================================================================================================================
+
+Scan Origin: Local File System
+
+======================================================================================================================================================
+
+Step                                              Completion Status               Elapsed                  Comments
+
+======================================================================================================================================================
+
+Fetch Configuration                                  COMPLETED                  00:00:00.114               --------
+
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:00:03.335               108 total dependencies (108 unique)
+
+   MAVEN                                             COMPLETED                  00:00:03.305               108 total dependencies (108 unique)
+
+   HTML                                              COMPLETED                    --------                 0 dependencies
+
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.663               37 source/binary files
+
+   java                                              COMPLETED                    --------                 37 source/binary files
+
+
+
+======================================================================================================================================================
+
+Elapsed running time:                                                           00:00:04.112
+
+======================================================================================================================================================
+
+Process finished with exit code SUCCESS (0)
+
